@@ -2,6 +2,14 @@
 import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
  
+
+
+import "./styles/all.scss";
+import "swiper/css";
+import "swiper/css/pagination";
+import "./styles/navbar.scss";
+
+
 const roboto = Roboto({
   weight: '400',
   subsets: ['latin'],
