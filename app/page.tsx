@@ -272,7 +272,7 @@ export default function Home() {
 							<span className="line"></span>
 						</div>
 						<p>
-						The "ZX-25R" refers to a sports motorcycle produced by Japanese
+						The &quot;ZX-25R&quot; refers to a sports motorcycle produced by Japanese
             motorcycle manufacturer Kawasaki. It is a model released to provide
             high performance in the small engine category, with the uniqueness
             of having a four-cylinder engine in a capacity of 250cc.
@@ -319,7 +319,7 @@ export default function Home() {
 							</div>
 							<div className="content">
 								<i>
-								"Kawasaki motorcycles have long dominated with advanced
+								&quot;Kawasaki motorcycles have long dominated with advanced
                 technology and robust performance. Its iconic design not only
                 creates an appealing look but also comfortable ergonomics. The
                 reliability of the engine and high-quality components ensures a
@@ -330,7 +330,7 @@ export default function Home() {
                 to motorcycle enthusiasts&apos; preferences. Responsive after-sales
                 support and a strong community of fans make every Kawasaki
                 motorcycle owner feel valued and connected to a community that
-                shares the same passion."
+                shares the same passion.&quot; 
 								</i>
 
 								<span className="user">
