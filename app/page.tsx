@@ -13,7 +13,7 @@ import HelmetSvg from "../public/Image/helmet.svg";
 import MotorSvg from "../public/Image/motor.svg";
 import NewsImg from "../public/Image/motorcyclist-biking-road.jpg";
 import MotorModel from "../public/Image/motor-model.png";
-
+import KawasakiOwner from "../public/Image/kawasaki owner.jpeg"
 // patners
 import pt1 from "../public/Image/sp1.png";
 import pt2 from "../public/Image/sp2.png";
@@ -203,9 +203,15 @@ export default function Home() {
 								disableOnInteraction: false,
 							}}
 							loop={true}
-							slidesPerView={2}
+							slidesPerView={1}
 							spaceBetween={20}
 							pagination={{ clickable: true }}
+							breakpoints={{
+								// when window width is >= 640px
+								600: {
+									slidesPerView: 2,
+								},
+							}}
 						>
 							<SwiperSlide className="card-offer">
 								<div className="wrap-img">
@@ -309,7 +315,7 @@ export default function Home() {
 					<section className="comment">
 						<div className="wrap-comment">
 							<div className="img-wrap">
-								<Image src={bg1} alt="customer"></Image>
+								<Image src={KawasakiOwner} alt="customer"></Image>
 							</div>
 							<div className="content">
 								<i>

@@ -145,7 +145,7 @@ button {
 			}
 		}
 		.card-img {
-			background-color: #e7e7e7;
+			background-color: #ce0000;
 			display: flex;
 			align-items: center;
 			justify-content: center;
@@ -157,11 +157,9 @@ button {
 				rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 			.wrap-icon {
 				width: 100%;
-				height: 180px;
+				height: 200px;
 				background-color: #fff;
 				position: absolute;
-				box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
-					rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 				top: -50px;
 				img {
 					width: 100%;
@@ -173,7 +171,6 @@ button {
 				position: absolute;
 				bottom: 0;
 				padding: 20px;
-				background-color: #ce0000;
 				width: 100%;
 			}
 			h3 {
@@ -589,8 +586,8 @@ button {
 		flex-direction: column;
 		align-items: center;
 		background-image: url(../../public/Image/footer.jpg);
-    position: relative;
-    &::after {
+		position: relative;
+		&::after {
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -598,7 +595,6 @@ button {
 			height: 100%;
 			content: "";
 			background: rgba(0, 0, 0, 0.75);
-     
 		}
 	}
 
@@ -608,7 +604,7 @@ button {
 		align-items: center;
 		width: 100%;
 		padding: 20px 80px;
-    z-index: 1;
+		z-index: 1;
 		@media (max-width: 768px) {
 			flex-direction: column;
 			gap: 20px;
@@ -701,7 +697,7 @@ button {
 		width: 100%;
 		height: 100%;
 		padding: 20px;
-    z-index: 1;
+		z-index: 1;
 	}
 }
 
@@ -713,7 +709,7 @@ button {
 		background-image: url(../../public/Image/abtbg.jpg);
 		background-position: center center;
 		background-repeat: no-repeat;
-		background-size: 100%;
+		background-size: cover;
 		color: #fff;
 		padding: 80px 100px;
 		h1 {
@@ -831,7 +827,7 @@ button {
 	flex-direction: column;
 	gap: 40px;
 
-  background-color: #F8F8F8;
+	background-color: #f8f8f8;
 	h2 {
 		font-size: 35px;
 		color: #333333;
@@ -897,25 +893,362 @@ button {
 				color: #333333;
 				width: 100%;
 				border-bottom: 2px solid #ce0000;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+				display: flex;
+				flex-direction: column;
+				gap: 10px;
 			}
 			h3 {
 				font-size: 18px;
 				display: flex;
 				text-align: center;
 				justify-content: center;
-        text-transform: uppercase;
+				text-transform: uppercase;
 				p {
 					font-weight: 400;
 				}
 			}
-      p {
-        text-align: center;
-        font-size: 14px;
-        color: #666666;
-      }
+			p {
+				text-align: center;
+				font-size: 14px;
+				// color: #666666;
+			}
 		}
 	}
+}
+
+// contact
+// about page
+.container-contact {
+	width: 100%;
+	margin-top: 150px;
+	.wrapper-bg {
+		background-image: url(../../public/Image/abtbg.jpg);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #fff;
+		padding: 80px 100px;
+		h1 {
+			font-size: 35px;
+		}
+	}
+	.content {
+		margin: 100px 0;
+		padding: 0px 80px;
+		.text-wrap {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			gap: 30px;
+			flex-direction: column;
+			padding: 0 80px;
+			color: #333333;
+			margin-bottom: 50px;
+			h3 {
+				font-size: 40px;
+				font-weight: 300;
+				text-align: center;
+			}
+			.line-wrap {
+				display: flex;
+				align-items: center;
+				gap: 6px;
+				.line {
+					height: 4px;
+					width: 50px;
+					&:nth-child(1) {
+						background-color: #000000;
+					}
+
+					&:nth-child(2) {
+						background-color: #ff0000;
+					}
+				}
+			}
+			b {
+				font-size: 18px;
+			}
+			P {
+				text-align: center;
+				font-size: 16px;
+			}
+		}
+		.wrap-card {
+			display: flex;
+			gap: 20px;
+
+			width: 100%;
+			.card-img {
+				background-color: #e7e7e7;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+				flex: 1;
+				position: relative;
+				cursor: pointer;
+				&:hover .wrap-text {
+					background-color: #ce0000;
+					color: #fff;
+				}
+				.wrap-icon {
+					width: 100%;
+					height: 300px;
+					background-color: #fff;
+					position: relative;
+					img {
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+					}
+					iframe {
+						width: 100%;
+						height: 100%;
+						border: none !important;
+						overflow: hidden;
+					}
+				}
+				.wrap-text {
+					position: relative;
+					bottom: 0;
+					padding: 30px 20px;
+					background-color: #f4f4f4;
+					color: #333333;
+					width: 100%;
+					border-bottom: 2px solid #ce0000;
+				}
+				h3 {
+					font-size: 25px;
+					display: flex;
+					text-align: center;
+					justify-content: center;
+					p {
+						font-weight: 400;
+					}
+				}
+			}
+			.card-form {
+				flex: 1;
+				height: 400px;
+				width: 100%;
+				position: relative;
+				form {
+					width: 100%;
+					height: 100%;
+					display: flex;
+					align-items: flex-start;
+					justify-content: space-between;
+					flex-direction: column;
+					gap: 30px;
+					input {
+						width: 100%;
+						height: 80px;
+						padding-left: 20px;
+						border: none;
+						border-bottom: 1px solid #666666;
+					}
+					button {
+						position: relative;
+						margin: 0px;
+						bottom: 0;
+						left: 0;
+						border: none;
+						background-color: #ce0000;
+						padding: 16px 28px;
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	nav {
+		padding: 0 20px;
+		.top-nav {
+			flex-direction: column;
+			gap: 20px;
+		}
+	}
+	.intro-main {
+		height: 70vh;
+	}
+	.container-card-menu .wrapper-card-menu {
+		flex-direction: column;
+		gap: 20px;
+		margin-top: 5%;
+		padding: 0px 30px;
+		.card-img {
+			padding: 10px;
+		}
+		.card,
+		.card-img {
+			position: relative;
+			top: 0;
+			gap: 20px;
+			box-shadow: none;
+
+			.wrap-icon {
+				top: 0;
+				position: relative;
+			}
+			.wrap-text {
+				padding: 30px;
+			}
+		}
+	}
+	.intro-main .main-text .wrap-text {
+		width: 100%;
+		padding: 0 30px;
+	}
+	.service-cycle {
+		padding: 0 30px;
+	}
+	.service-cycle .service-flex .first-flex,
+	.service-cycle .service-flex .second-flex {
+		flex-direction: column;
+		height: auto;
+		gap: 0;
+		.text-wrap {
+			gap: 20px;
+		}
+	}
+	.service-cycle .service-content {
+		flex-direction: column;
+		.selection {
+			width: 100%;
+		}
+	}
+	.offer-product {
+		padding: 100px 30px;
+	}
+	.comment {
+		height: auto;
+		padding: 130px 30px;
+		.wrap-comment {
+			flex-direction: column;
+			gap: 20px;
+			align-items: center;
+			.content {
+				gap: 20px;
+				b {
+					flex-direction: column;
+				}
+			}
+			.img-wrap {
+				width: 100%;
+			}
+		}
+	}
+	.patners {
+		padding: 80px 30px;
+		.text-wrap p {
+			width: 100%;
+		}
+	}
+
+	// about page
+	.container-about .content {
+		padding: 0 30px;
+		.text-wrap {
+			padding: 0;
+		}
+		.wrap-card {
+			flex-direction: column;
+		}
+	}
+	.nesia-team {
+		padding: 80px 30px 180px;
+		.wrap-card {
+			flex-direction: column;
+		}
+	}
+
+	// contact page
+	.container-contact .content {
+		padding: 0px 30px;
+
+		.text-wrap {
+			padding: 0;
+		}
+		.wrap-card {
+			flex-direction: column;
+		}
+	}
+	.site-footer .footer-contact {
+		align-items: center;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 400px) {
+	nav .bottom-nav {
+		flex-direction: column;
+	}
+	.intro-main,
+	.container-about,
+	.container-contact {
+		margin-top: 210px;
+		.wrapper-bg {
+			padding: 80px 40px;
+		}
+	}
+	.intro-main .main-text .wrap-text {
+		padding: 0 20px;
+		h1 {
+			font-size: 40px;
+		}
+		p {
+			font-size: 16px;
+		}
+	}
+	.container-card-menu .wrapper-card-menu {
+		padding: 0 20px;
+	}
+	.container-card-menu .wrapper-card-menu .card .wrap-icon {
+		box-shadow: none;
+	}
+	.container-card-menu .wrapper-card-menu {
+		.card {
+			order: 2;
+		}
+		.card-img {
+			order: 1;
+		}
+	}
+	.service-cycle {
+		padding: 0 20px;
+	}
+	.offer-product {
+		padding: 100px 20px;
+	}
+	.service-cycle .service-flex .first-flex .text-wrap,
+	.service-cycle .service-flex .second-flex .text-wrap {
+		padding: 20px;
+	}
+	.comment {
+		padding: 130px 20px;
+	}
+	.patners {
+		padding: 80px 20px;
+		.pantners-sportnesia {
+			flex-direction: column;
+			gap: 20px;
+		}
+	}
+	// page contact and about
+
+	.container-about,
+	.container-contact {
+		.content {
+			padding: 0 20px;
+			.text-wrap h3 {
+				font-size: 35px;
+			}
+		}
+	}
+	.nesia-team {
+    padding: 80px 20px 180px;
+}
 }

@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Logo from "../../public/Image/logo.png";
+import Link from "next/link";
 
 
 export default function Footer() {
@@ -20,16 +21,13 @@ export default function Footer() {
 										<b >Maps Site</b>
 									</li>
 									<li>
-										<a href="#">Home</a>
+										<Link href="/">Home</Link>
 									</li>
 									<li>
-										<a href="#">Products</a>
+										<Link href="/about">About Us</Link>
 									</li>
 									<li>
-										<a href="#">About Us</a>
-									</li>
-									<li>
-										<a href="#">Contact</a>
+										<Link href="/contact">Contact</Link>
 									</li>
 								</ul>
 							</div>

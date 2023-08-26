@@ -16,7 +16,7 @@ export default function NavBar() {
 					<div className="contact">
 						<span className="wrap-contact">
 							<i className="fa-solid fa-envelope"></i>
-							<p>ewdwjiosajdio@gmail.com</p>
+							<p>SportNesia@gmail.com</p>
 						</span>
 						<span className="wrap-contact">
 							<i className="fa-solid fa-phone"></i>
@@ -33,19 +33,13 @@ export default function NavBar() {
 					</span>
 					<ul>
 						<li>
-							<Link href="/">home</Link>
+							<Link href="/">Home</Link>
 						</li>
 						<li>
 							<Link href="/about">About</Link>
 						</li>
 						<li>
-							<Link href="">home</Link>
-						</li>
-						<li>
-							<Link href="">home</Link>
-						</li>
-						<li>
-							<Link href="">home</Link>
+							<Link href="/contact">Contact</Link>
 						</li>
 					</ul>
 				</div>
