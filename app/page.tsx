@@ -78,7 +78,7 @@ export default function Home() {
 									than just a sports motocycle, but an undeniable speed and
 									lifestyle experience
 									<br />
-									Let's find out
+									Let&apos;s find out
 								</p>
 								<button>Learn More</button>
 							</div>
@@ -95,7 +95,7 @@ export default function Home() {
 								</h3>
 								<p>
 									When protection is not just an obligation, but a reflection of
-									caring for your life, that's when a helmet of unparalleled
+									caring for your life, that&apos;s when a helmet of unparalleled
 									quality becomes a loyal partner on every journey.
 								</p>
 							</div>
@@ -122,7 +122,7 @@ export default function Home() {
               </h3>
               <p>
                 Behind every stunning acceleration lies a marvel of precision
-                engineering. The motocycle's high-quality engine is a symbol of
+                engineering. The motocycle&apos;s high-quality engine is a symbol of
                 uncompromosing performance that turns every ride into an
                 extraordinary adventure
               </p>
@@ -327,7 +327,7 @@ export default function Home() {
                 innovate, introducing cutting-edge features that enhance rider
                 safety and comfort. From sport models to adventure ones, the
                 Kawasaki product lineup offers a variety of choices that cater
-                to motorcycle enthusiasts' preferences. Responsive after-sales
+                to motorcycle enthusiasts&apos; preferences. Responsive after-sales
                 support and a strong community of fans make every Kawasaki
                 motorcycle owner feel valued and connected to a community that
                 shares the same passion."
